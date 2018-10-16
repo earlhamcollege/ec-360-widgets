@@ -2,7 +2,7 @@ var _ = require('@sailshq/lodash');
 
 module.exports = {        
   extend: 'apostrophe-widgets',        
-  label: 'Ec 360',        
+  label: 'EC 360',        
   beforeConstruct: function(self, options) {
     options.addFields = options.addFields || [
       {
