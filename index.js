@@ -18,11 +18,6 @@ module.exports = {
     self.addHelper();
   },
   construct: function(self, options) {
-  	self.beforeSave = function() {
-
-  	},
-  	console.log(self.beforeSave);
-
     self.addHelper = function() {
       self.addHelpers({
         safeRender: self.safeRender
